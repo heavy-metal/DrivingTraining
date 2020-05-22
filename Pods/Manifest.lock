@@ -1,0 +1,64 @@
+PODS:
+  - Alamofire (4.8.2)
+  - DACircularProgress (2.3.1)
+  - MBProgressHUD (0.9.2)
+  - MJRefresh (3.1.16)
+  - Moya/Core (13.0.0):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
+  - Moya/RxSwift (13.0.0):
+    - Moya/Core
+    - RxSwift (~> 4.0)
+  - MWPhotoBrowser (2.1.2):
+    - DACircularProgress (~> 2.3)
+    - MBProgressHUD (~> 0.9)
+    - "SDWebImage (!= 3.7.2, ~> 3.7)"
+  - ObjectMapper (3.4.2)
+  - Result (4.1.0)
+  - RxSwift (4.5.0)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SVProgressHUD (2.2.5)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - MJRefresh
+  - Moya/RxSwift
+  - MWPhotoBrowser
+  - ObjectMapper
+  - SVProgressHUD
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - DACircularProgress
+    - MBProgressHUD
+    - MJRefresh
+    - Moya
+    - MWPhotoBrowser
+    - ObjectMapper
+    - Result
+    - RxSwift
+    - SDWebImage
+    - SVProgressHUD
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MJRefresh: 7798e16e53a5ef7f332dd05b27664db4e29530fd
+  Moya: 161263550064ff8a4948e8ff63137fd72a876292
+  MWPhotoBrowser: 5836d7aa041dc05a13de380c246826578adc5ea5
+  ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: c27d8c2a32ce5160b688d0d27bf25b12a846986e
+
+COCOAPODS: 1.5.3

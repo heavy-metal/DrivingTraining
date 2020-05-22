@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="schoolCell" customModule="NewSwift" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="95" height="107"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="95" height="107"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="COH-zR-8ad">
+                        <rect key="frame" x="0.0" y="21" width="95" height="65"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zjQ-sY-kn1">
+                                <rect key="frame" x="27.5" y="5" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="O7N-f0-M5z"/>
+                                    <constraint firstAttribute="width" constant="40" id="u57-PZ-MsD"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="信浓公司" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GDA-QT-Iwc">
+                                <rect key="frame" x="0.0" y="50" width="95" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="LrL-vJ-9X5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="zjQ-sY-kn1" firstAttribute="top" secondItem="COH-zR-8ad" secondAttribute="top" constant="5" id="1Bz-A9-7B1"/>
+                            <constraint firstAttribute="trailing" secondItem="GDA-QT-Iwc" secondAttribute="trailing" id="Nlk-Tt-xdz"/>
+                            <constraint firstAttribute="height" constant="65" id="Qn3-fK-wX5"/>
+                            <constraint firstItem="GDA-QT-Iwc" firstAttribute="leading" secondItem="COH-zR-8ad" secondAttribute="leading" id="bOA-Pj-exB"/>
+                            <constraint firstItem="GDA-QT-Iwc" firstAttribute="top" secondItem="zjQ-sY-kn1" secondAttribute="bottom" constant="5" id="ixq-jn-4bA"/>
+                            <constraint firstItem="zjQ-sY-kn1" firstAttribute="centerX" secondItem="COH-zR-8ad" secondAttribute="centerX" id="yUl-nc-fmi"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="COH-zR-8ad" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="651-Nx-QCc"/>
+                <constraint firstAttribute="trailing" secondItem="COH-zR-8ad" secondAttribute="trailing" id="7Lc-8f-RWc"/>
+                <constraint firstItem="COH-zR-8ad" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="OSZ-Ih-U4N"/>
+                <constraint firstItem="COH-zR-8ad" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="aWb-4Q-98y"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="95" height="107"/>
+            <connections>
+                <outlet property="schoolNameLabel" destination="GDA-QT-Iwc" id="BhV-rl-RlW"/>
+                <outlet property="schoolicon" destination="zjQ-sY-kn1" id="Huh-BP-dMD"/>
+            </connections>
+            <point key="canvasLocation" x="0.80000000000000004" y="-60.719640179910051"/>
+        </collectionViewCell>
+    </objects>
+</document>

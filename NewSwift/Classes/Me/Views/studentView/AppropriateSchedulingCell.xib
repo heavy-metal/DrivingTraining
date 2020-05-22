@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="AppropriateSchedulingCell" customModule="NewSwift" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="124" height="110"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="124" height="110"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="08:00 ~ 09:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HqX-hx-a2K">
+                        <rect key="frame" x="0.0" y="24.5" width="124" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.57045853140000002" green="0.57047235969999999" blue="0.57046490910000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="新城训练场" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="09b-K8-EZN">
+                        <rect key="frame" x="0.0" y="68.5" width="124" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.57045853140000002" green="0.57047235969999999" blue="0.57046490910000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="第二部分  130¥" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QI9-dG-u1e">
+                        <rect key="frame" x="0.0" y="46.5" width="124" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.57045853140000002" green="0.57047235969999999" blue="0.57046490910000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="77m-0Y-Awg">
+                        <rect key="frame" x="99" y="85" width="25" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="25" id="C76-9D-yLB"/>
+                            <constraint firstAttribute="height" constant="25" id="cuz-Kg-YoC"/>
+                        </constraints>
+                        <state key="normal" title="Button" image="choose"/>
+                        <state key="selected" image="selected_choose"/>
+                    </button>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="09b-K8-EZN" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="3O0-3v-UpL"/>
+                <constraint firstItem="QI9-dG-u1e" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="Bx2-BC-l7B"/>
+                <constraint firstAttribute="trailing" secondItem="09b-K8-EZN" secondAttribute="trailing" id="IpX-l6-zIv"/>
+                <constraint firstItem="HqX-hx-a2K" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Lkn-6I-ELM"/>
+                <constraint firstAttribute="trailing" secondItem="QI9-dG-u1e" secondAttribute="trailing" id="cmL-V9-i9Y"/>
+                <constraint firstAttribute="trailing" secondItem="HqX-hx-a2K" secondAttribute="trailing" id="cxP-0Q-kkN"/>
+                <constraint firstItem="QI9-dG-u1e" firstAttribute="top" secondItem="HqX-hx-a2K" secondAttribute="bottom" constant="5" id="eJe-Nr-ZRB"/>
+                <constraint firstItem="QI9-dG-u1e" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="kZH-Xv-GJA"/>
+                <constraint firstAttribute="trailing" secondItem="77m-0Y-Awg" secondAttribute="trailing" id="nHE-KE-MlF"/>
+                <constraint firstItem="09b-K8-EZN" firstAttribute="top" secondItem="QI9-dG-u1e" secondAttribute="bottom" constant="5" id="tBM-PB-e1s"/>
+                <constraint firstItem="QI9-dG-u1e" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="wbU-7h-x1a"/>
+                <constraint firstAttribute="bottom" secondItem="77m-0Y-Awg" secondAttribute="bottom" id="zyn-7p-uhI"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="124" height="110"/>
+            <connections>
+                <outlet property="addressLabel" destination="09b-K8-EZN" id="sJQ-mm-TJh"/>
+                <outlet property="chooseImageBtn" destination="77m-0Y-Awg" id="7X9-fh-fI4"/>
+                <outlet property="timeLabel" destination="HqX-hx-a2K" id="emQ-Bz-YNR"/>
+                <outlet property="typeLabel" destination="QI9-dG-u1e" id="Rcc-3a-8dB"/>
+            </connections>
+            <point key="canvasLocation" x="191.30434782608697" y="139.95535714285714"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="choose" width="25" height="25"/>
+        <image name="selected_choose" width="25" height="25"/>
+    </resources>
+</document>
